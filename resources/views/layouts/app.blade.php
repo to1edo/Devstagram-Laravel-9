@@ -10,7 +10,7 @@
         @livewireStyles
     </head>
     <body class="bg-gray-100">
-        <header class="bg-white flex justify-between items-center py-4 px-8">
+        <header class="bg-white flex  flex-col md:flex-row justify-between items-center py-4 px-8">
             <div>
                 {{-- @auth
                     <a href="{{route('posts.index', auth()->user()->username)}}">
