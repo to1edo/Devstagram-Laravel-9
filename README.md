@@ -1,66 +1,106 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1>Devstagram</h1>
 
-## About Laravel
+<p>Devstagram en una plataforma inspirada en la red solcial Instagram, donde personas que se dediquen al desarrollo de sofware pueden compartir publicaiones diarias.</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<hr>
+<hr>
+User para pruebas:
+correo@correo.com
+correo3@correo.com
+prueba@gmail.com
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+password: 123456
+<hr>
+<hr>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2>La aplicación Web posee las siguentes características:</h2>
 
-## Learning Laravel
+<ul>
+  <li>
+    Panel de autenticación para el Login:
+    <img src="./readmeFiles/login.jpg" alt="login" >
+  </li>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  <hr>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+  <li>
+    Panel para crear cuenta:
+    <img src="./readmeFiles/register.jpg" alt="register" >
+  </li>
+  
+  <hr>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+  <li>
+    Página de inicio donde se muentran las publicaiones de las personas que sigues:
+    <br>
+    <img src="./readmeFiles/home.jpg" alt="home" >
+  </li>
 
-## Laravel Sponsors
+  <hr>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+  <li>
+    Página para creación de tus publicaciones:
+    <img src="./readmeFiles/create.jpg" alt="create" >
+    
+    Para este apartado se utilizó la librería de Dropzone, la cual permite realizar la subida de archivos de manera más interactiva y visual.
+    
+  </li>
 
-### Premium Partners
+  <hr>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+  <li>
+    Página de perfil personal:
+    <img src="./readmeFiles/profile.jpg" alt="profile" >
+    
+    En este apartado la persona puede agregar una foto de perfil y ver todas las publicaiones que ha realizado
 
-## Contributing
+  </li>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  <hr>
 
-## Code of Conduct
+  <li>
+    Página para editar perfil personal:
+    <img src="./readmeFiles/edit.jpg" alt="edit" >
+    
+    En este apartado la persona puede agregar una foto de perfil, cambiar el password e email
+  </li>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  <hr>
 
-## Security Vulnerabilities
+  <li>
+    Página para ver una publicación:
+    <img src="./readmeFiles/post.jpg" alt="post" >
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    En este apartado, las personas pueden a detalla la publicación seleccionada, además, pueden agragar comentarios y dar likes, teniendo validaciones para que solo las personas autenticadas puedan hacerlo.
+    
+    A los autores de los comentarios les aparecerá la opción de eliminar sus comentarios.
 
-## License
+    Para estos apartados se hizo uso de LiveWire para realizar las peticiones y actualizacion de los valores en tiempo real y sin necesidad de recargar la página.
+  </li>
+  
+</ul>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<hr>
+<hr>
+
+<h2>Base de datos:</h2>
+
+<p>La base de datos utilizada fue SQL y se usa el ORM Eloquent de Laravel para interactuar esta</p>
+
+<p>A continuación el diagrama de realacines de las tablas utilizadas para la aplicación:</p>
+
+
+<img src="./readmeFiles/ER diagram.jpg">
+
+
+
+
+
+<hr>
+<hr>
+<hr>
+
+
+en el futuro pienso seguir agregando nuevas características, como  verificacion de email, buscadores y notificaciones push
