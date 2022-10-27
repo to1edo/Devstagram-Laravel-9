@@ -92,7 +92,7 @@ password: 123456
 <p>A continuación el diagrama de realacines de las tablas utilizadas para la aplicación:</p>
 
 
-<img src="./readmeFiles/ER%20diagram.jpg">
+<img src="./readmeFiles/ER%20Diagram.jpg" alt="diagram">
 
 
 
